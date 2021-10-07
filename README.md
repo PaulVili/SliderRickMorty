@@ -1,1 +1,1 @@
-# https://paulvili.github.io/SliderRickMorty/
+# https://paulvili.github.io/SliderRickMorty
