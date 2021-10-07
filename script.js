@@ -26,7 +26,7 @@ fetch('https://rickandmortyapi.com/api/character')
 
 btnLeft.addEventListener("click", () => {
     if(move < 1){
-        move = 9;
+        move = 20;
     }
     move--
     slider.style.transform = `translateX(${-100*move}vw)`;
@@ -34,7 +34,7 @@ btnLeft.addEventListener("click", () => {
 })
 
 btnRight.addEventListener("click", () => {
-    if(move> 7){
+    if(move> 18){
         move = -1;
     }
     move++
@@ -43,7 +43,7 @@ btnRight.addEventListener("click", () => {
 })
 
 setInterval(() => {
-    if(move> 7){
+    if(move> 18){
         move = -1;
     }
     move++

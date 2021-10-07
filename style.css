@@ -87,7 +87,7 @@ body{
 }
 
 .pgActive{
-    opacity: 0.91;
+    opacity: 0.9;
 }
 
 
@@ -202,6 +202,19 @@ body{
         left: 50%;
         transform: translateX(-50%);
     }
+    
+    .pg{
+        background: white;
+        width: 5px;
+        height: 5px;
+        border-radius: 20px;
+        margin-right: 0.5em;
+        opacity: 0.3;
+        transition: .3s;
+    }
+    .pgActive{
+        opacity: 0.9;
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -259,14 +272,13 @@ body{
     }
     .pg{
         background: white;
-        width: 10px;
-        height: 10px;
+        width: 5px;
+        height: 5px;
         border-radius: 20px;
-        margin-right: 0.5em;
+        margin-right: 0.2em;
         opacity: 0.3;
         transition: .3s;
     }
-    
     .pgActive{
         opacity: 0.9;
     }
@@ -328,14 +340,13 @@ body{
     }
     .pg{
         background: white;
-        width: 10px;
-        height: 10px;
+        width: 5px;
+        height: 5px;
         border-radius: 20px;
-        margin-right: 0.5em;
+        margin-right: 0.2em;
         opacity: 0.3;
         transition: .3s;
     }
-    
     .pgActive{
         opacity: 0.9;
     }
